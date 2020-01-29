@@ -26,7 +26,7 @@ public class AdminController {
 	AdminService adminService;
 	
 
-	@RequestMapping("/admin")
+	@RequestMapping("/login/admin")
 	public String adminLogin() {
 		return "admin";
 	}
