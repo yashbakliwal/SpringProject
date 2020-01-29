@@ -9,11 +9,18 @@
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 
-<h1>Welcome to all</h1>
 </head>
+
 <body>
+<center>
+	<div class = "w3-container w3-teal">
+		<h1>Fico Dhaba</h1>
+
 <button class="w3-button w3-black 	" type="submit" ><a href="home">Register</a></button>
 			<button class="w3-button w3-black"  type="submit" ><a href="login">login for user</a></button>
 		<button class="w3-button w3-black" type="submit" ><a href="/admin/login">login for admin</a></button>
+			
+	</div>
+</center>
 </body>
 </html>
