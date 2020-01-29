@@ -39,7 +39,7 @@ public class AdminController {
 		if (v.isPresent()) {
 			return "menu_view";
 		} else {
-			return "menu_view";
+			return "admin";
 
 		}
 	}
@@ -48,6 +48,7 @@ public class AdminController {
 	public String menuDetail() {
 		return "MenuDetails";
 	}
+	
 	
 	@GetMapping("/allItem")
     public String getMenuOverview(ModelMap m) {
