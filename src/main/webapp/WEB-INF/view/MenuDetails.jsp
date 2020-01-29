@@ -7,7 +7,26 @@
 <title>Insert title here</title>
 </head>
 <body>
-<button type="submit"> <a href="/menu_view">Add Item</button>
-<button type="submit"> <a href="/menu_view_delete">Detete Item</button>
+
+	<h2>MENU DASHBOARD</h2>
+	<table class="a">
+		<thead>
+			<tr>
+				<th>ItemId</th>
+				<th>ItemName</th>
+				<th>Price</th>
+				<th>Modify</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+				
+			
+		</tbody>
+	</table>
+	
+	<center><a href="/menu_view"><button id="button" > Add Item </button>
+
 </body>
 </html>
