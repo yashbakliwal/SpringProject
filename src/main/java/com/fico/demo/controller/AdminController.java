@@ -11,6 +11,7 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.fico.demo.model.Admin;
 import com.fico.demo.model.Menu;
@@ -44,11 +45,26 @@ public class AdminController {
 		}
 	}
 
-	@RequestMapping("/MenuDetails")
-	public String menuDetail() {
-		return "MenuDetails";
+	@GetMapping("/MenuInfo")
+	public  String saveMenu(@RequestParam String Menuname, @RequestParam int price) {
+		Menu menu = new Menu(Menuname, price);
+			//System.out.println(user);
+			menuService.saveMenu(menu);
+			//map.addAttribute("list",menuService.findByAll(Menuname, price));
+			return "MenuDetails";
 	}
 	
+	@RequestMapping("/menu_view_delete")
+	public String ab()
+	{
+		return "MenuViewDelete";
+	}
+	
+	@RequestMapping("/menu_view")
+	public String a()
+	{
+		return "MenuInfo";
+	}
 	
 	@GetMapping("/allItem")
     public String getMenuOverview(ModelMap m) {

@@ -21,12 +21,9 @@ public class MenuService {
 		menuRepository.save(menu);
 	}
 
-	public void saveMymenu(Menu menu) {
-		menuRepository.save(menu);
-	}
-
-	public Optional<Menu> findByAll(String Menu_name, int price) {
-		return menuRepository.findByNameAndPrice(Menu_name, price);
+	
+	public Optional<Menu> findByAll(String Menuname, int price) {
+		return menuRepository.findByNameAndPrice(Menuname, price);
 	}
 	 public List<Menu> getAllItem() {
 	        return (List<Menu>) menuRepository.findAll();

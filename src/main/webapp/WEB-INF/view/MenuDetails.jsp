@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<button type="submit"> <a href="/MenuInfo">Add Item</button>
+<button type="submit"> <a href="/menu_view">Add Item</button>
+<button type="submit"> <a href="/menu_view_delete">Detete Item</button>
 </body>
 </html>

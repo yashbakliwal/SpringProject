@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-					<button type="submit"><a href="MenuDetails">Menu View</a></button>
-					<button type="submit"><a href="/OrderDetails">Order Details</a></button>
-	             
+
 </body>
 </html>

@@ -28,12 +28,10 @@ public class RestController {
 		userService.saveMyUser(user);
 		return "login";
 	}
-	@PostMapping("/MenuDetails")
-	public  String saveMenu(@RequestParam String name, @RequestParam int price) {
-		Menu menu = new Menu(name, price);
-//		System.out.println(user);
-		menuService.saveMenu(menu);
-		//map.addAttribute("list",menuService.findByAll(Menuname, price));
+	@GetMapping("/MenuDetails")
+	public String y()
+	
+	{
 		return "MenuDetails";
 	}
 	
