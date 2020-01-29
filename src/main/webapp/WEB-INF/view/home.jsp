@@ -12,7 +12,7 @@
 <h1>Welcome to all</h1>
 </head>
 <body>
-<button class="w3-button w3-black " type="submit" ><a href="home">Register</a></button>
+<button class="w3-button w3-black 	" type="submit" ><a href="home">Register</a></button>
 			<button class="w3-button w3-black"  type="submit" ><a href="login">login for user</a></button>
 		<button class="w3-button w3-black" type="submit" ><a href="/admin/login">login for admin</a></button>
 </body>

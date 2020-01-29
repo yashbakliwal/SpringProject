@@ -3,15 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="Expires" content="sat, 01 Dec 2001 00:00:00 GMT">
-
-<link href="static/css/bootstrap.min.css" rel="stylesheet">
-<link href="static/css/style.css" rel="stylesheet">
-
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 	<center>
 		<h1>Welcome to Fico Dhabha</h1>
