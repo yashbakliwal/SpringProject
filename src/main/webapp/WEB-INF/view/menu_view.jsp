@@ -12,6 +12,8 @@
 				<div class = "w3-container w3-teal"> 
 					<button class = "w3-button w3-black" type="submit"><a href="MenuDetails">Menu View</a></button>
 					<button class = "w3-button w3-black" type="submit"><a href="/OrderDetails">Order Details</a></button>
+					
+					
 	            </div>
 			
 			</center>

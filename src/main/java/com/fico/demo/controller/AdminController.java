@@ -44,6 +44,8 @@ public class AdminController {
 
 		}
 	}
+	
+	
 
 	@GetMapping("/MenuInfo")
 	public  String saveMenu(@RequestParam String Menuname, @RequestParam int price) {
@@ -55,9 +57,12 @@ public class AdminController {
 	}
 	
 	@RequestMapping("/menu_view_delete")
-	public String ab()
+	public String ab(ModelMap m)
 	{
-		return "MenuViewDelete";
+		List<Menu> list = menuService.getAllItem();
+		m.put("list", list);
+
+		return "updateMenu";
 	}
 	
 	@RequestMapping("/menu_view")
@@ -67,11 +72,13 @@ public class AdminController {
 	}
 	
 	@GetMapping("/allItem")
-    public String getMenuOverview(ModelMap m) {
-//        System.out.print("ALL ITEMs");
+    public String getMenuOverview() {
         List<Menu> list = menuService.getAllItem();
-        m.put("list", list);
-//            System.out.println(list.size());
-        return "updateMenu";
+      //  m.put("list", list);
+        return "MenuDetails";
     }
+	
+	
+	
+	
 }
